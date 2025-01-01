@@ -93,7 +93,6 @@ class TestIsKingInCheck(unittest.TestCase):
         ]
         self.assertFalse(is_king_in_check(chess_board))
 
-if __name__ == '__main__':
-    unittest.main()
+unittest.main()
 
 
